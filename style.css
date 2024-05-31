@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 5%;
-    height: 90vh;
+    height: 100vh;
 }
 .container{
     background-color: hsl(0, 0%, 100%);
@@ -19,8 +19,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 31%;
-    height: 74vh;
+    width: 100%;
+    max-width: 400px;
+    /* height: 74vh; */
+    padding: 20px;
     border: 1px solid black;
     border-radius:15px;
     box-shadow: 10px 10px black;
@@ -29,9 +31,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .image img{
-    width: 355px;
+    width: 100%;
     border-radius:15px;
 }
 .textbox{
@@ -40,13 +43,15 @@ body{
     text-align-last: left;
     flex-direction: column;
     gap: 20px;
-    padding-top: 15px;
-    padding-left: 33px;
+    margin-top: 20px;
+    /* padding-top: 15px;
+    padding-left: 33px; */
 }
 .learning{
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
-    width: 25%;
+    width: max-content;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
